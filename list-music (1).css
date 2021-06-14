@@ -1,0 +1,129 @@
+body{
+    background-image: url(https://i.pinimg.com/originals/06/a1/c8/06a1c8626dd4f04caf6a46e0af47fb6d.jpg);
+    background-size: 1250px 700px;
+    width: 1250px;
+    height: 700px;
+}
+h1{
+    color: cornflowerblue;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.item1{
+    width: 625px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.piano{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-image: url(https://images.pexels.com/photos/164743/pexels-photo-164743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: 150px 70px;
+    color: white;
+    font-size: 20px;
+}
+.violin{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-image: url(https://images.pexels.com/photos/3120109/pexels-photo-3120109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: 150px 70px;
+    color: white;
+    font-size: 20px;
+}
+.ope{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-image: url(https://images.pexels.com/photos/2102568/pexels-photo-2102568.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: 150px 70px;
+    color: white;
+    font-size: 20px;
+}
+.item2{
+    width: 625px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pop{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-image: url(https://i.pinimg.com/originals/57/a2/ca/57a2ca75201d62acb463cd1554b4c1e1.jpg);
+    background-size: 150px 70px;
+    color: white;
+    font-size: 20px;
+}
+.bla{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-image: url(https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_383,h_241/http://vanhocquenha.vn/wp-content/uploads/2018/11/nhac-ballad.jpg);
+    background-size: 150px 70px;
+    color: white;
+    font-size: 20px;
+}
+.rock{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-image: url(https://images.pexels.com/photos/6026918/pexels-photo-6026918.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: 150px 70px;
+    color: white;
+    font-size: 20px;
+}
+.edm{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-image: url(https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    background-size: 150px 70px;
+    color: white;
+    font-size: 20px;
+}
+.blu{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20200808/pngtree-beautiful-blue-background-music-note-with-lighting-effects-image_387348.jpg);
+    background-size: 150px 70px;
+    color: white;
+    font-size: 20px;
+}
+.rb{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-size: 150px 70px;
+    color: white;
+    background-image: url(http://school.younghityoungbeat.vn/uploads/images/userfiles/hiphoprb11.jpg);
+    font-size: 20px;
+}
+.lofi{
+    height: 70px;
+    width: 150px;
+    border: black solid 3px;
+    border-radius: 30px;
+    background-size: 150px 70px;
+    color: white;
+    background-image: url(https://i.ytimg.com/vi/Qm1-2mHvo1E/maxresdefault.jpg);
+    font-size: 20px;
+
+}

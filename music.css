@@ -1,0 +1,51 @@
+.container{
+    background-image: url("music.png");
+    background-size: 1250px;
+    width: 1250px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    width: 900px;
+    height: 200px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+a{
+    font-size: 20px;
+    color: #ffbb33;
+}
+.item1{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    border-radius: 30px ;
+    border: white;
+    color: orange;
+    background-image: url("https://ctmobile.vn/upload/dims.jpg");
+    background-size: 200px 60px;
+    font-size: 20px;
+}
+body {
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-0/p206x206/186462117_525915595436002_2516533447400664829_n.png?_nc_cat=104&ccb=1-3&_nc_sid=58c789&_nc_ohc=ocI4TKU1Pi8AX8-rS5Q&_nc_oc=AQlNCqqjmvvhFzhUGeZ0cXoQrlBdyQgCoe9Q0GlgLadbdrO3BvUsRVg-sGKqwhJ03WxvZBGsl1eWARg4kPhychez&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&tp=30&oh=c9b5d99c0c41f0dbf7bd8c39269937be&oe=60E0AEE2);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer {
+    background: rgb(44, 37, 37);
+    width: 100%;
+    height: 40vh;
+    color: white;
+}
