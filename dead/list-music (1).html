@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="list music.css">
+    <link rel="stylesheet" href="list music.css">    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"> <!--Bootstrap để dùng button... tại button là của m nên t nghĩ là không cần bootstrap đâu-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" rel="stylesheet"> <!-- Từ cái này trở xuống là để chạy cái pop up... t lấy của YT... đưng xoá đi vì Chúa-->
+    <!-- <link href="style.css" rel="stylesheet"> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +18,11 @@
     <div class="container">
         <div class="item1">
             <h1>Nhạc Cổ Điển</h1>
-            <button class="piano" onclick="pia()">Piano</button>
+            <button onclick="" href="#headerPopup" id="headerVideoLink" target="_blank" class="popup-modal">Piano</button> <!-- Cái onclick phế rồi... bỏ nó đi cũng đc mà giữ lại cũng được tuỳ m-->
+            <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9"> <!-- 1 cái video ứng với 1 cái div như này nhé-->
+                <!-- Code lấy từ thư viện nên k sợ lỗi js đâu... cái dòng iframe ở dưới là để hiện pop up với cho nó full screen đc thôi-->
+                <iframe class="embed-responsive-item" width="854" height="480" src="https://www.youtube.com/embed/watch?v=XRApso9_H44&list=RDXRApso9_H44&start_radio=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
             <button class="violin" onclick="vio()">violin</button>
             <button class="ope" onclick="ope()">opera / Giao hưởng</button>
         </div>
